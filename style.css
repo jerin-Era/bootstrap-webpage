@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+header{
+    background-image: url("images/IMG_20210307_094221.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-icon{
+    color: white;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   background: #2980b9;
+   color: white;
+   transform: scale(1.1);
+}
+.banner-container{
+    height: 90vh;
+}
+.banner-container h1{
+    font-size: 2.5rem;
+    padding: 10px 20px;
+     font-family: 'Handlee', cursive;
+     border-radius: 3px;
+    
+}
+
+/* about-me starts */
+#about-me{
+    padding: 4% 10%;
+    background: #e8ded2;
+}
+
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: light;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+}
+
+.achieve-desc span{
+    font-weight: 700 !important;
+}
+
+.star i{
+    width: 20px;
+   
+}
+/* about-me ends */
+
+/* contact starts */
+#contact{
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* contact ends */
+/* footer starts  */
+footer{
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+}
+/* footer ends */
+@media (max-width:768px){
+    .nav-link{
+        background: rgb(0,0,0,0.7);
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+      
+        
+    }
+    
+}
